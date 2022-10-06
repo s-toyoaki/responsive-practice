@@ -1,0 +1,137 @@
+
+.center{
+  margin: 0 auto;
+}
+
+.red{
+  background: #f00;
+}
+
+.blue{
+  background: #0008ff;
+}
+
+.green{
+  background: #22ff00;
+}
+
+.orange{
+  background: #ff8400;
+}
+
+.lightgreen{
+  background: #00ff51;
+}
+
+.yellow{
+  background: #d4ff00;
+}
+.pink{
+  background: #ff00e1;
+}
+
+.q1{
+  width: 400px;
+  height: 400px;
+}
+
+.box{
+  width: 300px;
+  height: 300px;
+  position:relative;
+}
+
+.flex, .q5{
+  display: flex;
+  justify-content: center;
+}
+
+.q3{
+  margin-right: 150px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.container{
+  position: relative;
+  overflow: hidden;
+}
+
+.fcenter{
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+.q4{
+  position: relative;
+  left: -50%;
+  float: left;
+}
+
+p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+@media screen and (max-width: 959px){
+  .q1{
+    width: 200px;
+    height: 200px;
+  }
+
+  .q2{
+    background: #007bff;
+  }
+
+  .q3{
+    margin-right: 50px;
+  }
+
+  .q4{
+    float: none;
+    left: 0%;
+  }
+
+  .fcenter{
+    left: 0%;
+  }
+
+  .conteiner{
+    overflow:visible
+  }
+
+  .q5{
+    flex-direction: row-reverse;
+  }
+
+  .pink{
+    order: 0;
+  }
+
+  .lightgreen{
+    order: 1;
+  }
+
+  .yellow{
+    order: 2;
+  }
+
+  .hidden{
+    height: 0px;
+    width: 0px;
+  }
+
+  .q6blue{
+    background: #0008ff;
+    width: 300px;
+    height: 300px;
+  }
+}
