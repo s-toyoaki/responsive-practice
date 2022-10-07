@@ -15,21 +15,6 @@
   background: #22ff00;
 }
 
-.orange{
-  background: #ff8400;
-}
-
-.lightgreen{
-  background: #00ff51;
-}
-
-.yellow{
-  background: #d4ff00;
-}
-.pink{
-  background: #ff00e1;
-}
-
 .q1{
   width: 400px;
   height: 400px;
@@ -38,7 +23,6 @@
 .box{
   width: 300px;
   height: 300px;
-  position:relative;
 }
 
 .flex, .q5{
@@ -59,7 +43,6 @@
 
 .container{
   position: relative;
-  overflow: hidden;
 }
 
 .fcenter{
@@ -74,11 +57,63 @@
   float: left;
 }
 
+.q5red{
+  background: #f00;
+  width: 300px;
+  height: 300px;
+  position:relative;
+}
+
+.q5blue{
+  background: #0008ff;
+  width: 300px;
+  height: 300px;
+  position:relative;
+}
+
+.q5orange{
+  background: #ff8400;
+  width: 300px;
+  height: 300px;
+  position:relative;
+}
+
+.q6green{
+  background: #00ff51;
+  width: 300px;
+  height: 300px;
+  position:relative;
+}
+
+.q6yellow{
+  background: #d4ff00;
+  width: 300px;
+  height: 300px;
+  position:relative;
+}
+
+.q6pink{
+  background: #ff00e1;
+  width: 300px;
+  height: 300px;
+  position:relative;
+}
+
 p{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
+}
+
+.q7red{
+  background: #f00;
+  width: 300px;
+  height: 300px;
+}
+
+.q7blue{
+  display: none;
 }
 
 @media screen and (max-width: 959px){
@@ -112,24 +147,24 @@ p{
     flex-direction: row-reverse;
   }
 
-  .pink{
+  .q6pink{
     order: 0;
   }
 
-  .lightgreen{
+  .q6green{
     order: 1;
   }
 
-  .yellow{
+  .q6yellow{
     order: 2;
   }
 
-  .hidden{
-    height: 0px;
-    width: 0px;
+  .q7red{
+    display: none;
   }
 
-  .q6blue{
+  .q7blue{
+    display: block;
     background: #0008ff;
     width: 300px;
     height: 300px;
