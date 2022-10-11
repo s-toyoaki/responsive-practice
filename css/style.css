@@ -25,7 +25,7 @@
   height: 300px;
 }
 
-.flex, .q5{
+.flex{
   display: flex;
   justify-content: center;
 }
@@ -51,10 +51,17 @@
   float: left;
 }
 
+
 .q4{
   position: relative;
   left: -50%;
   float: left;
+}
+
+.q5{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .q5red{
